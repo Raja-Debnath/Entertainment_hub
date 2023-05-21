@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+     <title>Entertainment Hub</title>
+     <style>
+          /* CSS styles */
+          body {
+               font-family: Arial, sans-serif;
+               margin: 0;
+               padding: 0;
+               background-color: #f5f5f5;
+          }
+
+          header {
+               background-color: #333;
+               color: #fff;
+               padding: 20px;
+               text-align: center;
+          }
+
+          h1 {
+               margin: 0;
+          }
+
+          main {
+               max-width: 800px;
+               margin: 20px auto;
+               padding: 20px;
+          }
+
+          .movie {
+               display: inline-block;
+               width: 200px;
+               margin: 10px;
+               text-align: center;
+               background-color: #fff;
+               border-radius: 5px;
+               box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+               transition: transform 0.3s ease;
+          }
+
+          .movie:hover {
+               transform: translateY(-5px);
+          }
+
+          .movie img {
+               width: 100%;
+               height: auto;
+               border-radius: 5px 5px 0 0;
+          }
+
+          .movie h3 {
+               margin: 10px 0;
+               color: #333;
+          }
+
+          @keyframes gradientAnimation {
+               0% {
+                    background-position: 0% 50%;
+               }
+
+               50% {
+                    background-position: 100% 50%;
+               }
+
+               100% {
+                    background-position: 0% 50%;
+               }
+          }
+
+          .movie:nth-child(odd) {
+               background: linear-gradient(45deg, #FF9D6C, #FFC07F, #FF9D6C);
+               background-size: 200% 200%;
+               animation: gradientAnimation 5s ease infinite;
+          }
+
+          .movie:nth-child(even) {
+               background: linear-gradient(45deg, #A18CD1, #FBC2EB, #A18CD1);
+               background-size: 200% 200%;
+               animation: gradientAnimation 5s ease infinite reverse;
+          }
+     </style>
+</head>
+
+<body>
+     <header>
+          <h1><marquee>Raha Nhi Jata 😂,Tadap Hi Aisi Hai🌚</marquee></h1>
+     </header>
+
+     <main>
+          <h2>Movies</h2>
+          <div class="movie">
+               <img src="movie1.jpg" alt="Movie 1">
+               <h3>Movie 1</h3>
+          </div>
+          <div class="movie">
+               <img src="movie2.jpg" alt="Movie 2">
+               <h3>Movie 2</h3>
+          </div>
+          <!-- Add more movie entries -->
+
+          <h2>Series</h2>
+          <div class="movie">
+               <img src="series1.jpg" alt="Series 1">
+               <h3>Series 1</h3>
+          </div>
+          <div class="movie">
+               <img src="series2.jpg" alt="Series 2">
+               <h3>Series 2</h3>
+          </div>
+          <!-- Add more series entries -->
+     </main>
+</body>
+
+</html>
