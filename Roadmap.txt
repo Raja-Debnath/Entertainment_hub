@@ -1,0 +1,23 @@
+technology : python flask framwork
+project : maxus 
+contributors : Piratesking [backend]
+               Mr.Ayush[frontend]
+
+structure - 28 may ✅
+basic frontend 1-2nd may ✅
+virtual environment - 6 june ✅ # updated the depreciated environment 
+data base -  6 june 
+authentication and testing - 11 june
+deploy in vercel - 12-13 june 
+
+pass consumet api :
+                -
+                -
+                -
+                -
+
+#first major update [anime] - 
+
+# Go live -
+
+#2nd major update [ movies ] -
