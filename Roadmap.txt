@@ -6,10 +6,12 @@ contributors : Piratesking [backend]
 structure - 28 may ✅
 basic frontend 1-2nd may ✅
 virtual environment - 6 june ✅ # updated the depreciated environment 
-data base -  6 june 
+data base -  6 june (delayed)-> till 11 june 
 authentication and testing - 11 june
 deploy in vercel - 12-13 june 
 
+Pre requisite : need to learn -> type script
+                              -> java script 
 pass consumet api :
                 -
                 -
